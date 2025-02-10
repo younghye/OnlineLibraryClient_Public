@@ -1,0 +1,80 @@
+thead tr th {
+  background-color: black;
+  text-align: center;
+}
+
+tfoot tr th {
+  border: none;
+}
+
+td {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: "100%";
+}
+
+.resizer {
+  display: inline-block;
+  /* background: blue; */
+  width: 10px;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: translateX(50%);
+  z-index: 1;
+  /* prevent scroll on touch devices */
+  touch-action: none;
+}
+
+.isResizing {
+  /* background: red; */
+}
+
+.base {
+  overflow-y: auto;
+  overflow-x: auto;
+  display: block;
+  white-space: nowrap;
+}
+
+.person-table {
+  width: 100%;
+  max-height: 365px;
+}
+
+.item-table {
+  width: 100%;
+  max-height: 360px;
+}
+
+.checkout-table {
+  width: 100%;
+  max-height: 210px;
+}
+
+.loan-table {
+  width: 100%;
+  max-height: 330px;
+}
+
+.itemCopy-table {
+  width: 100%;
+  max-height: 130px;
+  thead tr th {
+    background-color: cadetblue;
+  }
+  td {
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}

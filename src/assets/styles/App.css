@@ -1,0 +1,101 @@
+.App {
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.background {
+  height: 73vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.access-background {
+  background-image: url("assets/images/library.jpg");
+}
+.home-background {
+  background-image: url("assets/images/books.jpg");
+}
+
+.Toastify__toast--error {
+  color: black !important;
+  background: #fae1e2 !important;
+  border: 1px solid red !important;
+  top: 40vh;
+  right: 40vw;
+  width: 400px;
+}
+
+.required:after {
+  content: "*";
+  color: red;
+}
+
+.eye_icon {
+  position: relative;
+  float: right;
+  top: -2em;
+  right: 0.8em;
+  display: block;
+  cursor: pointer;
+}
+/* remove the arrow and cross (Chrome, Safari, Edge, Opera) */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.modal-95w {
+  min-width: 95%;
+}
+@media (width >= 992px) {
+  .checkout-border {
+    border-left: 1px solid;
+  }
+}
+.filter {
+  overflow: auto;
+  white-space: nowrap;
+  -webkit-backdrop-filter: blur(8px) !important;
+  backdrop-filter: blur(8px) !important;
+}
