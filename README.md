@@ -2,10 +2,11 @@
 Library Management System offers many flexible and convenient features to allow librarians to maximize their efficiency. The application gives the relevent information about books, DVDs and software by searching the catalogue. It tracks if the item is available in the library and which items have been issued. New items can be easily added and updated. The system provides the function to manage users in catagories such as employees or customers and the check-out and check-in status of items. 
 
 ## Development
-![LayerDesign](https://github.com/younghye/online-library-client/blob/master/src/assets/images/readme/LayerDesign.jpg)
+![LayerDesign](https://github.com/younghye/OnlineLibraryClient_Public/blob/master/src/assets/images/readme/LayerDesign.jpg)
+
 
 ## Use Case Diagram
-![UseCase](https://github.com/younghye/online-library-client/blob/master/src/assets/images/readme/UseCase.jpg)
+![UseCase](https://github.com/younghye/OnlineLibraryClient_Public/blob/master/src/assets/images/readme/UseCase.jpg)
 
 ## Use Case
 ### Before Login
@@ -63,7 +64,7 @@ Library Management System offers many flexible and convenient features to allow 
    If the item is not available to be scanned, the user can update the item manually by first accessing the customer menu. Access the list of "Active Loan" that have been borrowed. From there, user can update the item status(Avaliable, Lost, Damaged)
 
 ## Entity Relationship Diagram
-![ERD](https://github.com/younghye/online-library-client/blob/master/src/assets/images/readme/ERD.jpg)
+![ERD](https://github.com/younghye/OnlineLibraryClient_Public/blob/master/src/assets/images/readme/ERD.jpg)
 
 ## Setup
 ### React
