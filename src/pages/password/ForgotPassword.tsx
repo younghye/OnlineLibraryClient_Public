@@ -54,7 +54,7 @@ export default function FogotPassword() {
           subject: "Rest Password",
           html: `<p> Hi, ${res.data.person.firstName}</p>
                 <p>We've received a request to reset your password. <br> Click on the following link to reset your password:</p>
-                <p><span style="font-size: 14pt;"><strong><a href="http://localhost:3000/resetPassword/${token}">Reset Password</a></strong></span></p>
+                <p><span style="font-size: 14pt;"><strong><a href="${process.env.REACT_APP_URL}resetPassword/${token}">Reset Password</a></strong></span></p>
                 <p>The link will expire in 10 minutes.<br> If you didn't request a password reset, please ignore this email.</p>
                 <p>Thanks,<br>The Library Management System</p>`,
         })

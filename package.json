@@ -83,5 +83,9 @@
     "@types/react-dom": "^18.3.1",
     "@types/react-table": "^7.7.20",
     "ajv": "^8.17.1"
-  }
+  },
+  "description": "Library Management System offers many flexible and convenient features to allow librarians to maximize their efficiency. The application gives the relevent information about books, DVDs and software by searching the catalogue. It tracks if the item is available in the library and which items have been issued. New items can be easily added and updated. The system provides the function to manage users in catagories such as employees or customers and the check-out and check-in status of items.",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC"
 }
