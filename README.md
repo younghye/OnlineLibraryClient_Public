@@ -75,7 +75,9 @@ Reference https://github.com/younghye/OnlineLibraryAPI_Public
 
 
 ## Demo
-https://blue-cliff-0bdeaa900.5.azurestaticapps.net/access<br />
+https://blue-cliff-0bdeaa900.5.azurestaticapps.net/access
+#### $\textsf{\color{#ff0000}{I have the API hosted on Azure that is sometimes timing out connection, and it works again after few minutues.}}$   $\textsf{\color{#ff0000}{If you get the error, please try again later. I'm working on resolving the issue.}}$
+
 ### Login 
 UserName: Test<br /> 
 Password: Test@1234 
