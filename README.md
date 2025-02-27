@@ -70,6 +70,9 @@ https://github.com/younghye/OnlineLibraryClient_Public
 3. Setting up EmailJS for Reset Password feature.<br /> 
 https://www.telerik.com/blogs/sending-emails-react-app-using-emailjs
 4. Update variables of emailjs, JWT and API url in the ".env" file.
+5. API <br />
+Reference https://github.com/younghye/OnlineLibraryAPI_Public
+
 
 ## Demo
 https://blue-cliff-0bdeaa900.5.azurestaticapps.net/access<br />
