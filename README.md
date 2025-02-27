@@ -1,5 +1,6 @@
 # Library Management System
-Library Management System offers many flexible and convenient features to allow librarians to maximize their efficiency. The application gives the relevent information about books, DVDs and software by searching the catalogue. It tracks if the item is available in the library and which items have been issued. New items can be easily added and updated. The system provides the function to manage users in catagories such as employees or customers and the check-out and check-in status of items. 
+Library Management System offers many flexible and convenient features to allow librarians to maximize their efficiency. The application gives the relevent information about books, DVDs and software by searching the catalogue. It tracks if the item is available in the library and which items have been issued. New items can be easily added and updated. The system provides the function to manage users in catagories such as employees or customers and the check-out and check-in status of items.
+<img src="https://github.com/younghye/OnlineLibraryClient_Public/blob/70d7c981a921d2af6fabc7e59e992798da5efe89/Library.png" >
 
 ## Development
 ![LayerDesign](https://github.com/younghye/OnlineLibraryClient_Public/blob/master/src/assets/images/readme/LayerDesign.jpg)
@@ -63,23 +64,12 @@ Library Management System offers many flexible and convenient features to allow 
    User don't need to enter library card number for this. Simply scan the item barcode, and it will be marked as returned with "Return" button.
    If the item is not available to be scanned, the user can update the item manually by first accessing the customer menu. Access the list of "Active Loan" that have been borrowed. From there, user can update the item status(Avaliable, Lost, Damaged)
 
-## Entity Relationship Diagram
-![ERD](https://github.com/younghye/OnlineLibraryClient_Public/blob/master/src/assets/images/readme/ERD.jpg)
-
 ## Setup
-### React
 1. Setting up "Visual Studio Code" and clone a "OnlineLibraryClient_Public" repository. <br />
 https://github.com/younghye/OnlineLibraryClient_Public
 3. Setting up EmailJS for Reset Password feature.<br /> 
 https://www.telerik.com/blogs/sending-emails-react-app-using-emailjs
 4. Update variables of emailjs, JWT and API url in the ".env" file.
-### ASP.Net Core Web API
-1. Setting up "Visual Studio" and clone a "OnlineLibraryAPI_Public" repository.<br />
-https://github.com/younghye/OnlineLibraryAPI_Public
-2. Update variables of JWT and DB connection strings in the "appsettings.json" file.
-### DB
-1. Setting up "Sql Server Management studio". 
-2. Execute "SQLQuery" and "Stored_Procedure" files from the "OlineLibraryAPI_Public" repository.
 
 ## Demo
 https://blue-cliff-0bdeaa900.5.azurestaticapps.net/access<br />
