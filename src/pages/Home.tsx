@@ -1,7 +1,6 @@
 import { useEffect } from "react";
 import { useQueries } from "@tanstack/react-query";
 import { useItemAttributesStore } from "hooks/store/useItemAttributesStore";
-import Loading from "./common/Loading";
 import axios from "api/axios";
 
 export default function Home() {
@@ -41,9 +40,6 @@ export default function Home() {
     setTypes,
     setGenres,
   ]);
-
-  if (categoryQuery.isLoading || typeQuery.isLoading || genreQuery.isLoading)
-    return <Loading />;
 
   return <div className="background home-background"></div>;
 }

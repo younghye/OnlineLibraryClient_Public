@@ -1,9 +1,17 @@
 import { QueryClient, MutationCache, QueryCache } from "@tanstack/react-query";
 import * as Sentry from "@sentry/react";
+
 const throwOnError = (error: any) => {
   const httpErr = error?.response?.status;
   if (httpErr && httpErr >= 400 && httpErr < 500) return false;
   return true;
+};
+
+const retry = (failureCount: number, error: any) => {
+  if (error.code === "ECONNABORTED" || error.code === "ERR_NETWORK") {
+    return failureCount < 3;
+  }
+  return false;
 };
 
 export const queryClient = new QueryClient({
@@ -34,11 +42,11 @@ export const queryClient = new QueryClient({
   }),
   defaultOptions: {
     mutations: {
-      retry: 0,
+      retry,
       throwOnError,
     },
     queries: {
-      retry: 0,
+      retry,
       throwOnError,
       // garbage cached data collection time
       gcTime: 5000,
